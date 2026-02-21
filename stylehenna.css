@@ -226,6 +226,13 @@ form input[type="submit"]:hover {
     overflow: hidden;
 }
 
+.galerie-item img {
+    width: 100%;
+    height: auto;
+    object-fit: contain; /* garde l’intégralité de l’image */
+    border-radius: 20px;
+}
+
 /* Overlay sombre chic */
 .galerie-item::after {
     content: "";
@@ -246,4 +253,5 @@ form input[type="submit"]:hover {
 .galerie-item:hover::after {
     opacity: 1;
 }
+
 
